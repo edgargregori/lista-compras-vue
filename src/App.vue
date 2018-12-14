@@ -1,28 +1,51 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+          <CartList />
+        </div>
+        <div class="column is-9">
+          <ProductList />
+        </div>
+
+      </div>
+    </div>
+
+		<!-- 	<shopping-list-component>				</shopping-list-component> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CartList from './components/cart/CartList';
+import ProductList from './components/product/ProductList';
+//import ShoppingListComponent from './components/product/ShoppingListComponent'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    CartList,
+    ProductList,
+		//ShoppingListComponent
   }
 }
 </script>
 
 <style>
+html, body {
+  background: #F2F6FA;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+  html, body {
+    height: 100%;
+  }
 }
 </style>

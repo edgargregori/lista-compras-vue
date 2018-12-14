@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "nombre": "Miel de abejas",
+        "descripcion": "Alimento que se debe consumir todas las mañanas.",
+        "precio": 15.99,
+        "cantidad": 4
+    },
+    {
+        "id": 1,
+        "nombre": "Atun",
+        "descripcion": "Contiene acidos grasos necesarios.",
+        "precio": 19.99,
+        "cantidad": 3
+    },
+    {
+        "id": 5,
+        "nombre": "Te verde",
+        "descripcion": "Bueno para la circulación.",
+        "precio": 55,
+        "cantidad": 1
+    }
+]

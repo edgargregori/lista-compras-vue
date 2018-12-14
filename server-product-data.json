@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Atun",
+        "descripcion": "Contiene acidos grasos necesarios.",
+        "precio": 19.99,
+        "tickeado": true
+    },
+    {
+        "id": 2,
+        "nombre": "Miel de abejas",
+        "descripcion": "Alimento que se debe consumir todas las mañanas.",
+        "precio": 15.99,
+        "tickeado": true
+    },
+    {
+        "id": 3,
+        "nombre": "Pulpa de Copoazu",
+        "descripcion": "Bueno para todo.",
+        "precio": 15.99,
+        "tickeado": false
+    },
+    {
+        "id": 4,
+        "nombre": "Harina de Amaranto",
+        "descripcion": "Para la nutrición del cerebro.",
+        "precio": 49.99,
+        "tickeado": false
+    },
+    {
+        "id": 5,
+        "nombre": "Te verde",
+        "descripcion": "Bueno para la circulación.",
+        "precio": 55,
+        "tickeado": false
+    }
+]
