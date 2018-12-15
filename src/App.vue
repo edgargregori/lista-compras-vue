@@ -12,21 +12,18 @@
       </div>
     </div>
 
-		<!-- 	<shopping-list-component>				</shopping-list-component> -->
   </div>
 </template>
 
 <script>
 import CartList from './components/cart/CartList';
 import ProductList from './components/product/ProductList';
-//import ShoppingListComponent from './components/product/ShoppingListComponent'
 
 export default {
   name: 'App',
   components: {
     CartList,
     ProductList,
-		//ShoppingListComponent
   }
 }
 </script>
